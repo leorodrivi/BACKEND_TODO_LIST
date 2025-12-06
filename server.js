@@ -82,7 +82,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Servidor backend ejecutándose en http://localhost:${PORT}`);
-  console.log(`📡 Prueba la API: http://localhost:${PORT}/api/tareas`);
+app.listen(port, () => {
+  console.log(`🚀 Servidor backend ejecutándose en http://localhost:${port}`);
+  console.log(`📡 Prueba la API: http://localhost:${port}/api/tareas`);
 });
